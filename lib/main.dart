@@ -138,7 +138,7 @@ class _ProductListPageState extends State<ProductListPage> {
           : ListView.builder(
         padding: const EdgeInsets.only(bottom: 75),
         itemCount: _products.length,
-        itemBuilder: (context, index) {
+        itemBuilder: (context, index) { //
           final product = _products[index];
           return Card(
             color: Colors.white,
